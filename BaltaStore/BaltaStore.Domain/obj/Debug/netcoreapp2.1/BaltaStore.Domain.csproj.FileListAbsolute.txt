@@ -1,0 +1,10 @@
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netcoreapp2.1\BaltaStore.Domain.deps.json
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netcoreapp2.1\BaltaStore.Domain.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netcoreapp2.1\BaltaStore.Domain.pdb
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.csproj.AssemblyReference.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.AssemblyInfoInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.AssemblyInfo.cs
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.csproj.CoreCompileInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netcoreapp2.1\BaltaStore.Domain.pdb
