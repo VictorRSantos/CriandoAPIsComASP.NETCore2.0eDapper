@@ -8,13 +8,3 @@ S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Shared\obj
 S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.csproj.CoreCompileInputs.cache
 S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.dll
 S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.pdb
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\bin\Debug\netcoreapp2.1\BaltaStore.Shared.deps.json
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\bin\Debug\netcoreapp2.1\BaltaStore.Shared.dll
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\bin\Debug\netcoreapp2.1\BaltaStore.Shared.pdb
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.csproj.AssemblyReference.cache
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.AssemblyInfoInputs.cache
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.AssemblyInfo.cs
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.csproj.CoreCompileInputs.cache
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.dll
-C:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Shared\obj\Debug\netcoreapp2.1\BaltaStore.Shared.pdb
