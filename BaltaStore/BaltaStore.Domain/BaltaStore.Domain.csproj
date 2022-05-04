@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="InventoryContext\" />
+    <Folder Include="FinancialContext\" />
+    <Folder Include="StoreContext\" />
+  </ItemGroup>
+
 </Project>

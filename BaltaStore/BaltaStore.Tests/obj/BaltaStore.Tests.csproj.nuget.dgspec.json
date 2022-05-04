@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj": {}
+    "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj": {}
   },
   "projects": {
-    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj": {
+    "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
+        "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
         "projectName": "BaltaStore.Tests",
-        "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
-        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\obj\\",
+        "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
+        "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
