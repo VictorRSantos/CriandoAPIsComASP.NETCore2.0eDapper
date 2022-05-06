@@ -1116,6 +1116,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BaltaStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BaltaStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -4695,10 +4705,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BaltaStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Domain/BaltaStore.Domain.csproj",
+      "msbuildProject": "../BaltaStore.Domain/BaltaStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BaltaStore.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
@@ -4739,7 +4755,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
+              "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
