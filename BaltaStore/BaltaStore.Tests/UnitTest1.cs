@@ -40,10 +40,6 @@ namespace BaltaStore.Tests
             // Simular o cancelamento
             order.Cancel();
 
-
-
-
-
         }
     }
 }
