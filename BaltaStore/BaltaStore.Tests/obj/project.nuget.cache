@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mPYKbNPvuE4F2ZPEm0wnmiDGy9Qmrdqpukyls7Qb0SXaCE5LQVSJBZdNshF2r1Ignr/O5RQDUJlVez9sK0mJzQ==",
+  "dgSpecHash": "BQ5BPYtXbqqkeHsxMA9PbV6p1qlDzcUehjP6DuW73dhSx8rqj/aqKxB8Tw0/MO2CaW7PqlkL5A6gDqwdJwaOkQ==",
   "success": true,
   "projectFilePath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",

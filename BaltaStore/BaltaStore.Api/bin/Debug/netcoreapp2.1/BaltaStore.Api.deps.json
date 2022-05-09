@@ -28,6 +28,7 @@
     ".NETCoreApp,Version=v2.1": {
       "BaltaStore.Api/1.0.0": {
         "dependencies": {
+          "FluentValidator": "2.0.2",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0"
@@ -37,6 +38,20 @@
         },
         "compile": {
           "BaltaStore.Api.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3168,6 +3183,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

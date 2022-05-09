@@ -19,6 +19,14 @@
         }
       },
       "coverlet.collector/3.1.0": {},
+      "FluentValidator/2.0.2": {
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -651,6 +659,9 @@
         }
       },
       "BaltaStore.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "runtime": {
           "BaltaStore.Domain.dll": {}
         }
@@ -669,6 +680,13 @@
       "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
       "path": "coverlet.collector/3.1.0",
       "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",

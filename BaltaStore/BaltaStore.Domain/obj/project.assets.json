@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +223,18 @@
     }
   },
   "libraries": {
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "JNHhG+j5eIhG26+H721IDmwswGUznTwwSuJMFe/08h0X2YarHvA15sVAvUkA/2Sp3W0ENNm48t+J7KTPRqEpfA==",
       "type": "package",
@@ -684,6 +708,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FluentValidator >= 2.0.2",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -730,6 +755,10 @@
       "netcoreapp2.1": {
         "targetAlias": "netcoreapp2.1",
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4337,6 +4349,18 @@
     }
   },
   "libraries": {
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -11801,6 +11825,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FluentValidator >= 2.0.2",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11849,6 +11874,10 @@
       "netcoreapp2.1": {
         "targetAlias": "netcoreapp2.1",
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

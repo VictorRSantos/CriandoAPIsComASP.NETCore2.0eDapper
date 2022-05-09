@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dvZkH3JospsevQzi3iFTLEhWmngJsIZwRyM1bbEmgXOzK8n9jDY0oy1NvlTYkLQ/g2S2zLzwBQDb3Nw0Vh4KZw==",
+  "dgSpecHash": "AO3mgvmpfH9lbPPfN0YgsFRRpJIXjiJUbdvfho8UjhEctAt2x7V5I0Xnd/l2HJX0fbpSKssyD6B0fCGjR0JCYw==",
   "success": true,
   "projectFilePath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

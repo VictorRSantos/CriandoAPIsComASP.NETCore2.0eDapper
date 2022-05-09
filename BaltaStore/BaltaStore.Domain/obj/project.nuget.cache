@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2Mp8SqpBFx1EIpYnxYl+BfR6Vocyqu86RCIHy3XkCbVEvnskW0Zm/NXjUS81nL+qe+PMcIfKiE0JhaIWvITegw==",
+  "dgSpecHash": "B/5yVXoUYSFdJSPGaJEmyCvbKY6gJMlJUjJO2oKPwIOZB4RUYvP9x8hSyTFPI8Is8fEDbSIYRvwyxvQduKgV8g==",
   "success": true,
   "projectFilePath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
