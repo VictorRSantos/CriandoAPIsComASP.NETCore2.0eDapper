@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj": {}
+    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj": {
+    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj",
+        "projectUniqueName": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj",
         "projectName": "BaltaStore.Api",
-        "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj",
-        "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
-        "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta.io\\BaltaStore\\BaltaStore.Api\\obj\\",
+        "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\BaltaStore.Api.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
