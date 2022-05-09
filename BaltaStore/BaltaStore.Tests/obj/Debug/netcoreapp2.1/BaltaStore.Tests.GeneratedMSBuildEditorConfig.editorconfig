@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = BaltaStore.Tests
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Victor\ProjetosEstudos\Balta.io\BaltaStore\BaltaStore.Tests\
+=======
 build_property.ProjectDir = S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Tests\
+>>>>>>> cf65133a904073560ea6f9a91f787d5df249897b

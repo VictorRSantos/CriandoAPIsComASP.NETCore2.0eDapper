@@ -1815,7 +1815,7 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "BaltaStore.Api",
+  "RootNamespace": null,
   "Documents": [],
   "SerializationFormat": "0.2"
 }
