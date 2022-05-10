@@ -1,0 +1,10 @@
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\bin\Debug\netcoreapp2.1\pacote.deps.json
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\bin\Debug\netcoreapp2.1\pacote.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\bin\Debug\netcoreapp2.1\pacote.pdb
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.csproj.AssemblyReference.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.GeneratedMSBuildEditorConfig.editorconfig
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.AssemblyInfoInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.AssemblyInfo.cs
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.csproj.CoreCompileInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\obj\Debug\netcoreapp2.1\pacote.pdb

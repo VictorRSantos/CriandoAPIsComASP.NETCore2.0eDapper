@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>pacote</id>
+    <version>1.0.0</version>
+    <authors>Victor Rodrigues dos Santos</authors>
+    <description>Pacote de exemplo</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\pacote\bin\Debug\netcoreapp2.1\pacote.dll" target="lib\netcoreapp2.1\pacote.dll" />
+  </files>
+</package>
