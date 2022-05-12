@@ -713,23 +713,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Victor\\.nuget\\packages\\": {},
+    "C:\\Users\\victor.dossantos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
       "projectName": "BaltaStore.Domain",
-      "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
-      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\obj\\",
+      "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
+      "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
