@@ -19,10 +19,10 @@ namespace BaltaStore.Domain.StoreContext.Entities
         public decimal Price { get; private set; }
         public decimal QuantityOnHand { get; private set; }
 
-        public override string ToString()
-        {
-            return Title;
-        }
+        public override string ToString() => Title;
+
+
+        public void DecreaseQuantity(decimal quantity) => QuantityOnHand -= quantity;
 
     }
 }
