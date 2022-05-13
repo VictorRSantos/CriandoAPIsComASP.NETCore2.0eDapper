@@ -11,7 +11,7 @@ namespace BaltaStore.Tests
         public DocumentTests()
         {
             
-            _validDocument = new Document("32052020829");
+            _validDocument = new Document("32052022258");
             _invalidDocument = new Document("12345678910");
         }
 

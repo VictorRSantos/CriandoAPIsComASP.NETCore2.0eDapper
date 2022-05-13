@@ -1,9 +1,10 @@
-﻿using FluentValidator;
+﻿using BaltaStore.Shared.Commands;
+using FluentValidator;
 using FluentValidator.Validation;
 
 namespace BaltaStore.Domain.StoreContext.Commands.CustomerCommands.Input
 {
-    public class CreateCustomerCommand : Notifiable
+    public class CreateCustomerCommand : Notifiable, ICommand
     {
         // FailFastValidation
         public string FirstName { get; set; }
@@ -23,7 +24,7 @@ namespace BaltaStore.Domain.StoreContext.Commands.CustomerCommands.Input
                 .IsEmail(Email, "Email", "O E-mail é inválido")
                 .HasLen(Document, 11, "Document","CPF inválido"));
 
-            return Valid();
+            return IsValid;
         }
 
     }

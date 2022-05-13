@@ -219,6 +219,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BaltaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -704,10 +714,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BaltaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Shared/BaltaStore.Shared.csproj",
+      "msbuildProject": "../BaltaStore.Shared/BaltaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BaltaStore.Shared >= 1.0.0",
       "FluentValidator >= 2.0.2",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -745,7 +761,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+              "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
