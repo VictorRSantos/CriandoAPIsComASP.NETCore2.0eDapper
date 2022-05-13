@@ -2,9 +2,6 @@
 using BaltaStore.Domain.StoreContext.Enums;
 using BaltaStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BaltaStore.Tests.Entities
 {
