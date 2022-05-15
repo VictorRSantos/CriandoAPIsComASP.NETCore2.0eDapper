@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.1": {
       "BaltaStore.Domain/1.0.0": {
         "dependencies": {
+          "BaltaStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "runtime": {
@@ -20,6 +21,11 @@
             "assemblyVersion": "2.0.2.0",
             "fileVersion": "2.0.2.0"
           }
+        }
+      },
+      "BaltaStore.Shared/1.0.0": {
+        "runtime": {
+          "BaltaStore.Shared.dll": {}
         }
       }
     }
@@ -36,6 +42,11 @@
       "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
       "path": "fluentvalidator/2.0.2",
       "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
+    },
+    "BaltaStore.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {}
+    "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {}
   },
   "projects": {
-    "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
+    "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+        "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
         "projectName": "BaltaStore.Domain",
-        "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
-        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\obj\\",
+        "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,7 +32,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+                "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,7 +70,69 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj",
+        "projectName": "BaltaStore.Shared",
+        "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -83,6 +83,7 @@ namespace BaltaStore.Domain.StoreContext.Entities
                     deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
                 }
 
+                count++;
 
             }
 
