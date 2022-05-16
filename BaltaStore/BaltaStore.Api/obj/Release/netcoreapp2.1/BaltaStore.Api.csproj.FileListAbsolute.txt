@@ -1,0 +1,16 @@
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\bin\Release\netcoreapp2.1\BaltaStore.Api.deps.json
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\bin\Release\netcoreapp2.1\BaltaStore.Api.runtimeconfig.json
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\bin\Release\netcoreapp2.1\BaltaStore.Api.runtimeconfig.dev.json
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\bin\Release\netcoreapp2.1\BaltaStore.Api.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\bin\Release\netcoreapp2.1\BaltaStore.Api.pdb
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.csproj.AssemblyReference.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.GeneratedMSBuildEditorConfig.editorconfig
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.AssemblyInfoInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.AssemblyInfo.cs
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.csproj.CoreCompileInputs.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.RazorAssemblyInfo.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.RazorAssemblyInfo.cs
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.RazorTargetAssemblyInfo.cache
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.dll
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.pdb
+S:\Balta.io\CriandoAPIsComASP.NETCore2.0eDapper\BaltaStore\BaltaStore.Api\obj\Release\netcoreapp2.1\BaltaStore.Api.genruntimeconfig.cache
