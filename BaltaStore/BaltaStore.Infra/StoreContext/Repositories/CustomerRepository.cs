@@ -3,6 +3,8 @@ using BaltaStore.Domain.StoreContext.Queries;
 using BaltaStore.Domain.StoreContext.Repositories;
 using BaltaStore.Infra.StoreContext.DataContexts;
 using Dapper;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
@@ -21,15 +23,24 @@ namespace BaltaStore.Infra.StoreContext.Repositories
          _context.Connection.Query<bool>("spCheckDocument", new { Document = document },
              commandType: CommandType.StoredProcedure).FirstOrDefault();
 
-
         public bool CheckEmail(string email) =>
             _context.Connection.Query<bool>("spCheckEmail", new { Email = email },
                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+
+        public IEnumerable<ListCustomerQueryResult> Get() =>
+         _context.Connection.Query<ListCustomerQueryResult>("SELECT [Id],CONCAT([FistName],' ', [LastName]) AS Name, Document FROM [Customer]");
+
+        public GetCustomerQueryResult Get(Guid id) =>
+             _context.Connection.Query<GetCustomerQueryResult>
+            ("SELECT [Id],CONCAT([FistName],' ', [LastName]) AS Name, Document FROM [Customer] WHERE [Id]=@id", new {Id = id }).FirstOrDefault();
 
         public CustomerOrdersCountResult GetCustomerOrdersCount(string document) =>
             _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount", new { Document = document },
               commandType: CommandType.StoredProcedure).FirstOrDefault();
 
+        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id) =>
+                _context.Connection.Query<ListCustomerOrdersQueryResult>
+            ("", new { Id = id });
 
         public void Save(Customer customer)
         {

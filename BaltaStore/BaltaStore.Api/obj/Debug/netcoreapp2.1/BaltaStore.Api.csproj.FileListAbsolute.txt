@@ -51,3 +51,5 @@ C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.dll
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.pdb
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.genruntimeconfig.cache
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Infra.dll
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Infra.pdb

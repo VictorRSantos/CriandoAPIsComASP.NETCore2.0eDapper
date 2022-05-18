@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+using BaltaStore.Infra.StoreContext.Repositories;
 using Microsoft.Extensions.DependencyInjection;
+using BaltaStore.Domain.StoreContext.Repositories;
+using BaltaStore.Domain.StoreContext.Services;
+using BaltaStore.Infra.StoreContext.Services;
+using BaltaStore.Infra.StoreContext.DataContexts;
+using BaltaStore.Domain.StoreContext.Handlers;
 
 namespace BaltaStore.Api
 {
@@ -16,6 +17,14 @@ namespace BaltaStore.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+
+            services.AddScoped<BaltaDataContext, BaltaDataContext>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<CustomerHandler, CustomerHandler>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BaltaStore.Domain\BaltaStore.Domain.csproj" />
+    <ProjectReference Include="..\BaltaStore.Infra\BaltaStore.Infra.csproj" />
     <ProjectReference Include="..\BaltaStore.Shared\BaltaStore.Shared.csproj" />
   </ItemGroup>
 
