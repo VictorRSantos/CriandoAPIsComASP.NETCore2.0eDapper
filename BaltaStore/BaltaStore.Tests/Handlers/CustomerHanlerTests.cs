@@ -18,14 +18,19 @@ namespace BaltaStore.Tests.Handlers
 
             command.FirstName = "Andre";
             command.LastName = "Baltieri";
-            command.Document = "32052022258";
+            command.Document = "34509281048";
             command.Email = "hello@balta.io";
             command.Phone = "11969445574";
 
-            Assert.AreEqual(true, command.Valid());
+            
+            var handler = new CustomerHandler(new FakeCustomerRepository(), new FakeEmailService());
+            var result = handler.Handle(command);
 
 
-            var hanlder = new CustomerHandler(new FakeCustomerRepository(), new FakeEmailService());
+           Assert.AreNotEqual(null, result);
+
+            Assert.AreEqual(true, handler.IsValid);
+
 
         }
     }

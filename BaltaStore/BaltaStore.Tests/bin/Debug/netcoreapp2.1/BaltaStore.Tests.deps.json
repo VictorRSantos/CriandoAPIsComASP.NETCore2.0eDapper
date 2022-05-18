@@ -668,6 +668,9 @@
         }
       },
       "BaltaStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "runtime": {
           "BaltaStore.Shared.dll": {}
         }
