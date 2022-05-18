@@ -18,6 +18,7 @@ namespace BaltaStore.Api
         {
             services.AddMvc();
 
+            services.AddResponseCompression();
 
             services.AddScoped<BaltaDataContext, BaltaDataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
@@ -34,6 +35,9 @@ namespace BaltaStore.Api
                 app.UseDeveloperExceptionPage();
 
             app.UseMvc();
+
+            app.UseResponseCompression();
+            
 
         }
     }
