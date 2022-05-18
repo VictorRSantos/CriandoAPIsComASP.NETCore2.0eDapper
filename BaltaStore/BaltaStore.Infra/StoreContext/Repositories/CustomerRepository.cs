@@ -1,4 +1,5 @@
 ﻿using BaltaStore.Domain.StoreContext.Entities;
+using BaltaStore.Domain.StoreContext.Queries;
 using BaltaStore.Domain.StoreContext.Repositories;
 using BaltaStore.Infra.StoreContext.DataContexts;
 using Dapper;
@@ -24,11 +25,15 @@ namespace BaltaStore.Infra.StoreContext.Repositories
         public bool CheckEmail(string email) =>
             _context.Connection.Query<bool>("spCheckEmail", new { Email = email },
                 commandType: CommandType.StoredProcedure).FirstOrDefault();
-       
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document) =>
+            _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount", new { Document = document },
+              commandType: CommandType.StoredProcedure).FirstOrDefault();
+
 
         public void Save(Customer customer)
         {
-            
+
             _context.Connection.Execute("spCreateCustomer", new
             {
                 Id = customer.Id,
@@ -41,10 +46,10 @@ namespace BaltaStore.Infra.StoreContext.Repositories
 
             foreach (var address in customer.Addresses)
             {
-                _context.Connection.Execute("spCreateAddress", new 
+                _context.Connection.Execute("spCreateAddress", new
                 {
                     Id = address.Id,
-                    CustomerId =customer.Id,
+                    CustomerId = customer.Id,
                     Number = address.Number,
                     Complement = address.Complement,
                     District = address.District,
@@ -52,7 +57,7 @@ namespace BaltaStore.Infra.StoreContext.Repositories
                     State = address.State,
                     Country = address.Country,
                     ZipCode = address.ZipCode,
-                    Type = address.Type                
+                    Type = address.Type
                 }, commandType: CommandType.StoredProcedure);
 
             }
