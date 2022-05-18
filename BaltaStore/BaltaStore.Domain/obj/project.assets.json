@@ -223,6 +223,9 @@
       "BaltaStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/BaltaStore.Shared.dll": {}
         },
@@ -729,26 +732,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\victor.dossantos\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Victor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "projectUniqueName": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
       "projectName": "BaltaStore.Domain",
-      "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
-      "packagesPath": "C:\\Users\\victor.dossantos\\.nuget\\packages\\",
-      "outputPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\obj\\",
+      "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\victor.dossantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -762,8 +762,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
-              "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+            "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+              "projectPath": "S:\\Balta.io\\CriandoAPIsComASP.NETCore2.0eDapper\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
             }
           }
         }

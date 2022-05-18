@@ -1,25 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Api", "BaltaStore.Api\BaltaStore.Api.csproj", "{38335AD2-62E5-44BE-8872-BD21C64A94F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Api", "BaltaStore.Api\BaltaStore.Api.csproj", "{38335AD2-62E5-44BE-8872-BD21C64A94F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Domain", "BaltaStore.Domain\BaltaStore.Domain.csproj", "{EE4FD037-5B94-4BA0-8718-26F55392DBB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Domain", "BaltaStore.Domain\BaltaStore.Domain.csproj", "{EE4FD037-5B94-4BA0-8718-26F55392DBB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Infra", "BaltaStore.Infra\BaltaStore.Infra.csproj", "{28AEDD3C-D9D9-48B1-96CC-BD8982FA80E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Infra", "BaltaStore.Infra\BaltaStore.Infra.csproj", "{28AEDD3C-D9D9-48B1-96CC-BD8982FA80E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Shared", "BaltaStore.Shared\BaltaStore.Shared.csproj", "{F9FB355E-09A0-4704-AE9E-2E6FEC9214BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "BaltaStore.Shared\BaltaStore.Shared.csproj", "{F9FB355E-09A0-4704-AE9E-2E6FEC9214BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Tests", "BaltaStore.Tests\BaltaStore.Tests.csproj", "{46E1A246-87A9-42F0-80EB-F480BA93BBB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "BaltaStore.Tests\BaltaStore.Tests.csproj", "{46E1A246-87A9-42F0-80EB-F480BA93BBB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScripBanco", "ScripBanco", "{251BE30B-EDF7-4984-A461-7FA92AE96259}"
+	ProjectSection(SolutionItems) = preProject
+		BaltaStore.Infra\scriptBanco\script_e_procedure_projeto_curso.sql = BaltaStore.Infra\scriptBanco\script_e_procedure_projeto_curso.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{38335AD2-62E5-44BE-8872-BD21C64A94F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +44,11 @@ Global
 		{46E1A246-87A9-42F0-80EB-F480BA93BBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E1A246-87A9-42F0-80EB-F480BA93BBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E1A246-87A9-42F0-80EB-F480BA93BBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E66EC00-C94C-4FC9-8770-609ED60A1081}
 	EndGlobalSection
 EndGlobal
