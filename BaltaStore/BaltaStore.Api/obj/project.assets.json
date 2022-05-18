@@ -4345,6 +4345,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "BaltaStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BaltaStore.Shared": "1.0.0",
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BaltaStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Domain.dll": {}
+        }
+      },
+      "BaltaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -11822,10 +11849,22 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "BaltaStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Domain/BaltaStore.Domain.csproj",
+      "msbuildProject": "../BaltaStore.Domain/BaltaStore.Domain.csproj"
+    },
+    "BaltaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Shared/BaltaStore.Shared.csproj",
+      "msbuildProject": "../BaltaStore.Shared/BaltaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BaltaStore.Domain >= 1.0.0",
+      "BaltaStore.Shared >= 1.0.0",
       "FluentValidator >= 2.0.2",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -11865,7 +11904,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
+              "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
+            },
+            "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+              "projectPath": "C:\\Victor\\ProjetosEstudos\\Balta\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

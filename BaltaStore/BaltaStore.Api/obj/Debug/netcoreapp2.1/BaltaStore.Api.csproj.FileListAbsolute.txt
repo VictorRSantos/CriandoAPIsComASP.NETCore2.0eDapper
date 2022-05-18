@@ -35,6 +35,10 @@ C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Api.runtimeconfig.dev.json
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Api.dll
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Api.pdb
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Domain.dll
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Shared.dll
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Domain.pdb
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\bin\Debug\netcoreapp2.1\BaltaStore.Shared.pdb
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.csproj.AssemblyReference.cache
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.AssemblyInfoInputs.cache
@@ -43,6 +47,7 @@ C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.RazorAssemblyInfo.cache
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.RazorAssemblyInfo.cs
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.RazorTargetAssemblyInfo.cache
+C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.csproj.CopyComplete
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.dll
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.pdb
 C:\Victor\ProjetosEstudos\Balta\BaltaStore\BaltaStore.Api\obj\Debug\netcoreapp2.1\BaltaStore.Api.genruntimeconfig.cache

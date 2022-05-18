@@ -1,4 +1,5 @@
 ﻿using BaltaStore.Domain.StoreContext.Entities;
+using BaltaStore.Domain.StoreContext.Queries;
 using BaltaStore.Domain.StoreContext.Repositories;
 
 namespace BaltaStore.Tests.Fakes
@@ -13,6 +14,11 @@ namespace BaltaStore.Tests.Fakes
         public bool CheckEmail(string email)
         {
             return false;
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        {
+            throw new System.NotImplementedException();
         }
 
         public void Save(Customer customer)
