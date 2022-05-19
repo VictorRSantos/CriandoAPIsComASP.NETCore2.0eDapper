@@ -7,9 +7,16 @@ namespace BaltaStore.Api.Controllers
         [HttpGet]
         [Route("")]
         public object Get() =>  new {version = "Version 0.0.1" };
-        
 
+
+        [HttpGet]
+        [Route("error")]
+        public string Error() 
+        {
+            throw new System.Exception("Algum erro ocorreu");
+            return "error";
         
+        }
 
 
     }

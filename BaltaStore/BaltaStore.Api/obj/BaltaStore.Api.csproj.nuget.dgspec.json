@@ -53,9 +53,17 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "dependencies": {
+            "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.37, )"
+            },
             "FluentValidator": {
               "target": "Package",
               "version": "[2.0.2, )"
+            },
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.20.0, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
