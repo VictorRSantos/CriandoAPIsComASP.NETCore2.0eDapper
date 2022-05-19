@@ -5,14 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="StoreContext\Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BaltaStore.Domain\BaltaStore.Domain.csproj" />
     <ProjectReference Include="..\BaltaStore.Shared\BaltaStore.Shared.csproj" />
   </ItemGroup>
 

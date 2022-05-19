@@ -19,7 +19,7 @@ namespace BaltaStore.Domain.StoreContext.Commands.CustomerCommands.Input
         public string ZipCode { get; set; }
         public EAdressType Type { get; set; }
 
-        public event EventHandler CanExecuteChanged;
+     
 
         public bool Valid()
         {

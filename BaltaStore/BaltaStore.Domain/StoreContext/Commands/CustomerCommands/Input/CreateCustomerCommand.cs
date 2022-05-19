@@ -12,7 +12,7 @@ namespace BaltaStore.Domain.StoreContext.Commands.CustomerCommands.Input
         public string Document { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-
+     
 
         public bool Valid()
         {
